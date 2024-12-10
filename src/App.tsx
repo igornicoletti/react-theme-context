@@ -1,11 +1,11 @@
 import { ThemeToggle } from './components'
 import { appVariants } from './styles'
 
-const { applayout } = appVariants()
+const { container } = appVariants()
 
 export const App = () => {
   return (
-    <div className={applayout()}>
+    <div className={container()}>
       <ThemeToggle />
     </div>
   )
