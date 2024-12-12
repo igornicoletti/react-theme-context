@@ -10,13 +10,13 @@ export const ThemeToggle = () => {
   const enabled = theme === 'dark'
 
   return (
-    <Switch checked={enabled} onChange={toggleTheme} className={container()}>
+    <Switch className={container()} checked={enabled} onChange={toggleTheme}>
       <span className={label()}>Theme mode</span>
       <span className={thumb()}>
-        <span aria-hidden="true" className={iconInactive()}>
+        <span className={iconInactive()} aria-hidden={true}>
           <SunIcon className={icon()} />
         </span>
-        <span aria-hidden="true" className={iconActive()}>
+        <span className={iconActive()} aria-hidden={true}>
           <MoonIcon className={icon()} />
         </span>
       </span>
