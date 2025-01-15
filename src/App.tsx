@@ -1,4 +1,4 @@
-import { ThemeToggle } from './components'
+import { ThemeSwitch } from './components'
 import { appVariants } from './styles'
 
 const { container } = appVariants()
@@ -6,7 +6,7 @@ const { container } = appVariants()
 export const App = () => {
   return (
     <div className={container()}>
-      <ThemeToggle />
+      <ThemeSwitch />
     </div>
   )
 }
