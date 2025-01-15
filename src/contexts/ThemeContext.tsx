@@ -1,5 +1,5 @@
 import { createContext } from 'react'
-import { ThemeContextProps } from '../../types'
+import { ThemeContextProps } from '../types'
 
 /**
  * The context that provides the state related to the theme and the function to toggle it.
